@@ -1,0 +1,61 @@
+.Rproj.user
+inst/doc
+
+# 不上传压缩包文件
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.fa.gz
+
+*.tsv
+*.mtx
+# 排除文件夹
+
+tmp/
+
+# 排除文件
+hg19
+hg38
+
+# 忽略系统和编辑器生成的文件
+*.pyc
+__pycache__/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 忽略虚拟环境
+venv/
+env/
+.venv/
+
+# 忽略构建文件
+build/
+dist/
+*.egg-info/
+
+# 忽略日志文件和临时文件
+*.log
+*.tmp
+*.temp
+
+# 忽略数据库文件
+*.db
+*.sqlite
+
+# 忽略配置文件（如果包含敏感信息）
+config.json
+settings.py
+
+# 忽略测试覆盖率报告
+coverage.xml
+htmlcov/
+
+# 忽略 Jupyter Notebook 文件的临时文件
+.ipynb_checkpoints/
+
+# 忽略 Docker 相关文件
+Dockerfile
+.dockerignore
+.dockerenv
+
