@@ -6,7 +6,8 @@ inst/doc
 *.tar.bz2
 *.tar.xz
 *.fa.gz
-
+*.h5ad
+*.txt
 *.tsv
 *.mtx
 # 排除文件夹
